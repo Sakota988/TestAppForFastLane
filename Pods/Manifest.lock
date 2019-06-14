@@ -1,0 +1,103 @@
+PODS:
+  - Apollo (0.10.1):
+    - Apollo/Core (= 0.10.1)
+  - Apollo/Core (0.10.1)
+  - CocoaLumberjack/Core (3.5.1)
+  - CocoaLumberjack/Swift (3.5.1):
+    - CocoaLumberjack/Core
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Differentiator (3.1.0)
+  - DynamicBlurView (3.0.1)
+  - Fabric (1.9.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - KeychainSwift (13.0.0)
+  - NewRelicAgent (6.6.0)
+  - PKHUD (5.2.1)
+  - ReachabilitySwift (4.3.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SkeletonView (1.4.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.30.1)
+  - Swinject (2.6.0)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+
+DEPENDENCIES:
+  - Apollo (= 0.10.1)
+  - CocoaLumberjack/Swift (= 3.5.1)
+  - Crashlytics (= 3.12.0)
+  - DynamicBlurView (= 3.0.1)
+  - Fabric (= 1.9.0)
+  - IQKeyboardManagerSwift (= 6.2.0)
+  - KeychainSwift (~> 13.0.0)
+  - NewRelicAgent
+  - PKHUD (= 5.2.1)
+  - ReachabilitySwift (= 4.3.0)
+  - RxCocoa (~> 4.0)
+  - RxDataSources (= 3.1.0)
+  - RxSwift (~> 4.0)
+  - SDWebImage (~> 4.3.0)
+  - SkeletonView (= 1.4.2)
+  - SVProgressHUD (= 2.2.5)
+  - SwiftLint (= 0.30.1)
+  - Swinject (= 2.6.0)
+  - SwinjectStoryboard (= 2.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+    - CocoaLumberjack
+    - Crashlytics
+    - Differentiator
+    - DynamicBlurView
+    - Fabric
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - NewRelicAgent
+    - PKHUD
+    - ReachabilitySwift
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SDWebImage
+    - SkeletonView
+    - SVProgressHUD
+    - SwiftLint
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Apollo: 4d690a9b2e48e8820182df4b988d7a253e1ee589
+  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  KeychainSwift: 23d6c16cbc33f20fafa30c3d783241b4b87d998c
+  NewRelicAgent: 1d0d55a33f8c6498a8d98dc581c94ecf69484fc7
+  PKHUD: 4e6162c4c39ac367c6934e9855c6b4762ee16256
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SkeletonView: c2523c3c8c6510e273e49a3bf364a434744c3914
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
+  Swinject: 48a96cda93633cf2860697b4ce76ab5db9ebaca2
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+
+PODFILE CHECKSUM: 953d66bee5613551e37fedc4dbf309564583835a
+
+COCOAPODS: 1.6.1
