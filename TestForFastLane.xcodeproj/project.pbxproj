@@ -237,13 +237,16 @@
 				TargetAttributes = {
 					DE8037C722B24E3400FEC0BC = {
 						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Manual;
 					};
 					DE8037DB22B24E3400FEC0BC = {
 						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Manual;
 						TestTargetID = DE8037C722B24E3400FEC0BC;
 					};
 					DE8037E622B24E3500FEC0BC = {
 						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Manual;
 						TestTargetID = DE8037C722B24E3400FEC0BC;
 					};
 				};
@@ -598,8 +601,8 @@
 			baseConfigurationReference = AFABB1318EA448D800508CB3 /* Pods-TestForFastLane.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SS5AK35J4T;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H2N6F5RHWC;
 				INFOPLIST_FILE = TestForFastLane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -607,6 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.jenkins.test.1981;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Generic_DevProfile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -617,8 +621,9 @@
 			baseConfigurationReference = 783BE390E2AFF1DC32067634 /* Pods-TestForFastLane.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SS5AK35J4T;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H2N6F5RHWC;
 				INFOPLIST_FILE = TestForFastLane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -626,6 +631,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.jenkins.test.1981;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Generic_AdHoc;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -637,7 +643,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = TestForFastLaneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -658,7 +664,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = TestForFastLaneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -678,7 +684,7 @@
 			baseConfigurationReference = E50A1197DA5DEE11B5F25FD2 /* Pods-TestForFastLaneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = TestForFastLaneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -698,7 +704,7 @@
 			baseConfigurationReference = 991113CC041C01F856C6CC1B /* Pods-TestForFastLaneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = TestForFastLaneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
